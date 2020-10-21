@@ -1,8 +1,27 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Antrepernegro (est. 1865) LLC`,
+    description: `Antrepernegro (est. 1865) LLC, business consulting for the future.`,
     author: `@gatsbyjs`,
+    Logo: `src/images/GA_logo_2.png`,
+      menuLinks:[
+         {
+             name:'home',
+             link:'/',
+           },
+          {
+              name:'About',
+              link:'/page-2',
+          },
+          {
+              name:'Services',
+              link:'/page-3',
+            },
+            {
+              name:'Support',
+              link:'/page-4',
+            }
+        ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
